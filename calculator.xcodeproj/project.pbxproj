@@ -12,6 +12,7 @@
 		62113C821EF6051000DE0591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62113C801EF6051000DE0591 /* Main.storyboard */; };
 		62113C841EF6051000DE0591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62113C831EF6051000DE0591 /* Assets.xcassets */; };
 		62113C871EF6051000DE0591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62113C851EF6051000DE0591 /* LaunchScreen.storyboard */; };
+		62113C8F1EF626D100DE0591 /* StructsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62113C8E1EF626D100DE0591 /* StructsEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		62113C831EF6051000DE0591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62113C861EF6051000DE0591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62113C881EF6051000DE0591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62113C8E1EF626D100DE0591 /* StructsEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructsEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				62113C831EF6051000DE0591 /* Assets.xcassets */,
 				62113C851EF6051000DE0591 /* LaunchScreen.storyboard */,
 				62113C881EF6051000DE0591 /* Info.plist */,
+				62113C8E1EF626D100DE0591 /* StructsEnums.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62113C8F1EF626D100DE0591 /* StructsEnums.swift in Sources */,
 				62113C7F1EF6051000DE0591 /* ViewController.swift in Sources */,
 				62113C7D1EF6051000DE0591 /* AppDelegate.swift in Sources */,
 			);
